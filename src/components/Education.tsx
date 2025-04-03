@@ -1,36 +1,39 @@
+
 import { Book, Calendar, Download } from "lucide-react";
+
 const Education = () => {
   const educationItems = [{
     title: "Business Information Technology",
     institution: "Jomo Kenyatta University of Agriculture and Technology",
-    period: "2023 - Present",
+    period: "2014",
     description: "Comprehensive education in business processes and IT systems integration, focusing on database management, system analysis, and software development."
   }, {
     title: "AI Career Essentials Certification",
     institution: "ALX Africa",
-    period: "2023",
+    period: "2024",
     description: "Specialized training in artificial intelligence fundamentals, machine learning models, and practical AI applications for business contexts."
   }, {
     title: "Professional Foundations Certification",
     institution: "ALX Africa",
-    period: "2022",
+    period: "2025",
     description: "Development of core professional skills including business communication, project management, and workplace collaboration."
   }, {
     title: "Linux Administration Certification",
     institution: "Institute of Advanced Technology",
-    period: "2022",
+    period: "2019",
     description: "Technical training in Linux operating systems, server administration, network configuration, and security protocols."
   }, {
     title: "Virtual Assistance",
     institution: "ALX Africa",
-    period: "2022",
+    period: "2024",
     description: "Training in professional administrative support, organizational skills, and digital tools for remote assistance and business operations."
   }, {
     title: "Graphic Design",
     institution: "Skill Development Alagappa University",
-    period: "2021",
+    period: "2024",
     description: "Fundamentals of visual design principles, typography, color theory, and digital design tools for creating effective visual communications."
   }];
+  
   return <section id="education" className="section-padding bg-navy-800/50">
       <div className="container mx-auto">
         <h2 className="section-title">Education & Certifications</h2>
@@ -66,4 +69,5 @@ const Education = () => {
       </div>
     </section>;
 };
+
 export default Education;

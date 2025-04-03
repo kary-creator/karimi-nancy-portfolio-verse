@@ -30,20 +30,6 @@ const Projects = () => {
       tags: ["SQL", "Database Design", "Schema"],
       github: "https://github.com/PLP-Database-Design/wk-1-kary-creator.git",
       live: ""
-    },
-    {
-      title: "Linux System Automation",
-      description: "Shell scripts and tools for automating common Linux administration tasks and system maintenance.",
-      tags: ["Bash", "Linux", "Shell Scripting"],
-      github: "https://github.com/kary-creator",
-      live: ""
-    },
-    {
-      title: "E-commerce Database Design",
-      description: "A comprehensive SQL database design for an e-commerce platform with complex relationships and optimization.",
-      tags: ["SQL", "Database Design", "ERD"],
-      github: "https://github.com/kary-creator",
-      live: ""
     }
   ];
 

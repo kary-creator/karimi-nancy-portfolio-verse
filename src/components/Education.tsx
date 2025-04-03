@@ -5,27 +5,39 @@ const Education = () => {
   const educationItems = [
     {
       title: "Business Information Technology",
-      institution: "PLP Academy",
+      institution: "Jomo Kenyatta University of Agriculture and Technology",
       period: "2023 - Present",
       description: "Comprehensive education in business processes and IT systems integration, focusing on database management, system analysis, and software development.",
     },
     {
       title: "AI Career Essentials Certification",
-      institution: "Coursera",
+      institution: "ALX Africa",
       period: "2023",
       description: "Specialized training in artificial intelligence fundamentals, machine learning models, and practical AI applications for business contexts.",
     },
     {
       title: "Professional Foundations Certification",
-      institution: "LinkedIn Learning",
+      institution: "ALX Africa",
       period: "2022",
       description: "Development of core professional skills including business communication, project management, and workplace collaboration.",
     },
     {
       title: "Linux Administration Certification",
-      institution: "Linux Academy",
+      institution: "Institute of Advanced Technology",
       period: "2022",
       description: "Technical training in Linux operating systems, server administration, network configuration, and security protocols.",
+    },
+    {
+      title: "Virtual Assistance",
+      institution: "ALX Africa",
+      period: "2022",
+      description: "Training in professional administrative support, organizational skills, and digital tools for remote assistance and business operations.",
+    },
+    {
+      title: "Graphic Design",
+      institution: "Skill Development Alagappa University",
+      period: "2021",
+      description: "Fundamentals of visual design principles, typography, color theory, and digital design tools for creating effective visual communications.",
     },
   ];
 

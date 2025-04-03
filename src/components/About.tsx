@@ -10,10 +10,10 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
           <div className="animate-fade-in">
             <p className="text-gray-300 leading-relaxed mb-6">
-              I'm a passionate and versatile professional with a strong foundation in Business Information Technology and a growing expertise in software engineering. My journey has been shaped by curiosity, a hunger for learning, and a deep admiration for how technology can solve problems and bring ideas to life.
+              Hello, I'm Karimi Nancy—a passionate professional with a foundation in Business Information Technology and a growing expertise in software engineering. My journey has been shaped by curiosity, a hunger for learning, and a deep admiration for how technology can solve problems and bring ideas to life.
             </p>
             <p className="text-gray-300 leading-relaxed mb-6">
-              With hands-on experience as an intern in various government ministry departments, I've honed my skills in data cleaning and gained valuable insights into organizational workflows. My diverse skill set extends to virtual assistance, graphic design, Linux administration, and AI career essentials, complemented by a solid grounding in professional foundations.
+              With hands-on experience as an intern in various government ministry departments, I've honed my skills in data cleaning and gained valuable insights into organizational workflows. My diverse skill set extends to virtual assistance, graphic design, Linux administration, AI career essentials, and Professional foundations.
             </p>
             <p className="text-gray-300 leading-relaxed">
               What drives me is the thrill of creating solutions that matter. I've always been fascinated by developers—how they think, innovate, and turn challenges into opportunities. This curiosity has led me to dive into software engineering, where I'm excited to build, problem-solve, and contribute to impactful projects.
@@ -37,7 +37,7 @@ const About = () => {
               </div>
               <h3 className="text-xl font-semibold text-white mb-2">Software Development</h3>
               <p className="text-gray-400">
-                Building solutions with Python, SQL, HTML, CSS and exploring new technologies
+                Building solutions with Python, JavaScript, SQL, HTML, CSS and exploring new technologies
               </p>
             </div>
             

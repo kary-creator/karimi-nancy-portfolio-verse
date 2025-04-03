@@ -11,10 +11,24 @@ const Projects = () => {
       live: ""
     },
     {
-      title: "Data Analysis Dashboard",
-      description: "A dashboard for visualizing complex data sets, built with Python and SQL for backend processing.",
-      tags: ["Python", "SQL", "Data Visualization"],
-      github: "https://github.com/kary-creator",
+      title: "Week 1 Web Project",
+      description: "A responsive web development project showcasing front-end development skills with interactive elements.",
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/kary-creator/week-1-web.git",
+      live: ""
+    },
+    {
+      title: "Database Design - Week 2",
+      description: "A comprehensive database design project with entity-relationship diagrams and SQL implementation.",
+      tags: ["SQL", "Database Design", "ERD"],
+      github: "https://github.com/PLP-Database-Design/wk-2a-kary-creator.git",
+      live: ""
+    },
+    {
+      title: "Database Design - Week 1",
+      description: "Foundational database project focusing on schema design, normalization, and database theory.",
+      tags: ["SQL", "Database Design", "Schema"],
+      github: "https://github.com/PLP-Database-Design/wk-1-kary-creator.git",
       live: ""
     },
     {

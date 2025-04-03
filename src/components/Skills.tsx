@@ -4,11 +4,13 @@ import { Code } from "lucide-react";
 const Skills = () => {
   const technicalSkills = [
     { name: "Python", level: 80 },
+    { name: "JavaScript", level: 75 },
     { name: "SQL", level: 85 },
     { name: "HTML", level: 90 },
     { name: "CSS", level: 75 },
     { name: "Linux", level: 70 },
-    { name: "Data Analysis", level: 75 },
+    { name: "React", level: 65 },
+    { name: "Django", level: 60 },
   ];
 
   const softSkills = [
@@ -79,7 +81,8 @@ const Skills = () => {
               <h4 className="text-xl font-semibold text-white mb-4">Additional Expertise</h4>
               <div className="flex flex-wrap gap-3">
                 {["Data Cleaning", "Graphic Design", "Virtual Assistance", "Linux Administration", 
-                  "Business Analysis", "System Analysis", "UI/UX Basics", "Content Creation"].map((skill, index) => (
+                  "Business Analysis", "System Analysis", "UI/UX Basics", "Content Creation",
+                  "Mobile Development", "MySQL", "REST APIs"].map((skill, index) => (
                   <span 
                     key={index} 
                     className="px-4 py-2 bg-navy-700/80 text-gray-300 rounded-full text-sm"

@@ -35,9 +35,12 @@ const Hero = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center md:justify-end animate-fade-in" style={{ animationDelay: "0.6s" }}>
             <div className="relative w-64 h-64 md:w-80 md:h-80">
-              {/* Placeholder for profile image - replace with actual image later */}
               <div className="w-full h-full rounded-full bg-gradient-to-br from-navy-700 to-navy-800 border-4 border-primary/30 flex items-center justify-center overflow-hidden">
-                <span className="text-6xl font-bold text-primary">KN</span>
+                <img 
+                  src="/lovable-uploads/808a0b69-6c42-4d43-9c07-17856b23d66e.png" 
+                  alt="Karimi Nancy" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-navy-800 rounded-lg glass-card flex items-center justify-center">
                 <div className="text-center">

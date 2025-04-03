@@ -150,7 +150,7 @@ const Contact = () => {
             </form>
           </div>
           
-          {/* Contact Information */}
+          {/* Contact Information and Voice Recording */}
           <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
             <div className="glass-card mb-8">
               <h3 className="text-2xl font-bold text-white mb-6">Contact Information</h3>
@@ -202,9 +202,19 @@ const Contact = () => {
               
               <div className="p-4 bg-navy-700/80 rounded-lg">
                 <audio controls className="w-full">
-                  <source src="#" type="audio/mpeg" />
+                  <source src="https://drive.google.com/uc?export=download&id=1QlhbE1-qpj1hmOidTVpkyktfKHWHCveP" type="audio/mpeg" />
                   Your browser does not support the audio element.
                 </audio>
+              </div>
+              <div className="mt-4 text-sm text-gray-400">
+                <a 
+                  href="https://drive.google.com/file/d/1QlhbE1-qpj1hmOidTVpkyktfKHWHCveP/view?usp=sharing" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  Trouble playing? Open in Google Drive
+                </a>
               </div>
             </div>
           </div>

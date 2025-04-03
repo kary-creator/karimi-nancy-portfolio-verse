@@ -81,8 +81,7 @@ const Skills = () => {
               <h4 className="text-xl font-semibold text-white mb-4">Additional Expertise</h4>
               <div className="flex flex-wrap gap-3">
                 {["Data Cleaning", "Graphic Design", "Virtual Assistance", "Linux Administration", 
-                  "Business Analysis", "System Analysis", "UI/UX Basics", "Content Creation",
-                  "Mobile Development", "MySQL", "REST APIs"].map((skill, index) => (
+                  "UI/UX Basics", "Mobile Development", "MySQL", "REST APIs"].map((skill, index) => (
                   <span 
                     key={index} 
                     className="px-4 py-2 bg-navy-700/80 text-gray-300 rounded-full text-sm"

@@ -1,7 +1,19 @@
 
 import { Download } from "lucide-react";
+import { useEffect, useState } from "react";
 
 const Hero = () => {
+  const titles = ["Aspiring Fullstack Developer", "Software Engineer", "HTML", "CSS", "JavaScript", "Database"];
+  const [currentTitleIndex, setCurrentTitleIndex] = useState(0);
+  
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentTitleIndex((prevIndex) => (prevIndex + 1) % titles.length);
+    }, 2000);
+    
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section className="relative min-h-screen flex items-center pt-24 pb-16 overflow-hidden">
       {/* Background Elements */}
@@ -16,9 +28,13 @@ const Hero = () => {
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight animate-fade-in">
               Hello, I'm <span className="text-primary">Karimi Nancy</span>
             </h1>
-            <p className="text-xl text-gray-300 mb-8 leading-relaxed max-w-lg animate-fade-in" style={{ animationDelay: "0.2s" }}>
-              A passionate professional with a background in Business Information Technology and a growing expertise in Software Engineering.
-            </p>
+            <div className="h-16 mb-8">
+              <p className="text-xl text-gray-300 leading-relaxed max-w-lg animate-fade-in" style={{ animationDelay: "0.2s" }}>
+                <span className="text-primary font-medium text-2xl animate-pulse">
+                  {titles[currentTitleIndex]}
+                </span>
+              </p>
+            </div>
             <div className="flex flex-wrap gap-4 animate-fade-in" style={{ animationDelay: "0.4s" }}>
               <a 
                 href="https://docs.google.com/document/d/1v1vwiK0XdWEMtnYCYakOjDfk3UzS2N2JHJc2yTMLiJ0/edit?tab=t.0" 

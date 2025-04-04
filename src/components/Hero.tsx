@@ -3,7 +3,7 @@ import { Download } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const Hero = () => {
-  const titles = ["Aspiring Fullstack Developer", "Software Engineer", "HTML", "CSS", "JavaScript", "Database"];
+  const titles = ["Aspiring Fullstack Developer", "Software Engineer"];
   const [currentTitleIndex, setCurrentTitleIndex] = useState(0);
   
   useEffect(() => {

@@ -14,10 +14,10 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="w-full md:w-1/2 md:pr-12 mb-10 md:mb-0">
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight animate-fade-in">
-              Hi, I'm <span className="text-primary">Karimi Nancy</span>
+              Hello, I'm <span className="text-primary">Karimi Nancy</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8 leading-relaxed max-w-lg animate-fade-in" style={{ animationDelay: "0.2s" }}>
-              A passionate and versatile professional with a strong foundation in Business Information Technology and a growing expertise in software engineering.
+              A passionate professional with a background in Business Information Technology and a growing expertise in Software Engineering.
             </p>
             <div className="flex flex-wrap gap-4 animate-fade-in" style={{ animationDelay: "0.4s" }}>
               <a 
